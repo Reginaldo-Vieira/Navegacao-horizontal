@@ -1,0 +1,31 @@
+body{
+	font-family: Tahoma;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 570px;
+	float: left;
+	background: #0489B1 url(../imagem/fundo-horizontal.png);
+}
+ul li{
+	float: left;
+}
+ul a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px 2em;
+	background: url(../imagem/divisor.png) repeat-y;
+}
+.primeiro{
+	background: none;
+}
+ul a:hover{
+	background: #086A87;
+	color: gold;
+}
+.marcado{
+	background: #086A87;
+}
